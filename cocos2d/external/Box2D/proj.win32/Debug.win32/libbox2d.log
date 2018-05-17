@@ -1,0 +1,51 @@
+﻿  b2BroadPhase.cpp
+  b2CollideCircle.cpp
+  b2CollideEdge.cpp
+  b2CollidePolygon.cpp
+  b2Collision.cpp
+  b2Distance.cpp
+  b2DynamicTree.cpp
+  b2TimeOfImpact.cpp
+  b2ChainShape.cpp
+  b2CircleShape.cpp
+  b2EdgeShape.cpp
+  b2PolygonShape.cpp
+  b2BlockAllocator.cpp
+  b2Draw.cpp
+  b2Math.cpp
+  b2Settings.cpp
+  b2StackAllocator.cpp
+  b2Timer.cpp
+  b2Body.cpp
+  b2ContactManager.cpp
+  b2Fixture.cpp
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义 (编译源文件 ..\Common\b2Timer.cpp)
+  d:\visual studio 2017\vc\tools\msvc\14.11.25503\include\sal.h(2866): note: 参见“__useHeader”的前一个定义 (编译源文件 ..\Common\b2Timer.cpp)
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义 (编译源文件 ..\Common\b2Timer.cpp)
+  d:\visual studio 2017\vc\tools\msvc\14.11.25503\include\sal.h(2876): note: 参见“__on_failure”的前一个定义 (编译源文件 ..\Common\b2Timer.cpp)
+  b2Island.cpp
+  b2World.cpp
+  b2WorldCallbacks.cpp
+  b2ChainAndCircleContact.cpp
+  b2ChainAndPolygonContact.cpp
+  b2CircleContact.cpp
+  b2Contact.cpp
+  b2ContactSolver.cpp
+  b2EdgeAndCircleContact.cpp
+  b2EdgeAndPolygonContact.cpp
+  b2PolygonAndCircleContact.cpp
+  b2PolygonContact.cpp
+  b2DistanceJoint.cpp
+  b2FrictionJoint.cpp
+  b2GearJoint.cpp
+  b2Joint.cpp
+  b2MotorJoint.cpp
+  b2MouseJoint.cpp
+  b2PrismaticJoint.cpp
+  b2PulleyJoint.cpp
+  b2RevoluteJoint.cpp
+  b2RopeJoint.cpp
+  b2WeldJoint.cpp
+  b2WheelJoint.cpp
+  b2Rope.cpp
+  libbox2d.vcxproj -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Debug.win32\libbox2d.lib

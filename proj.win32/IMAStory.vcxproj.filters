@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景">
+      <UniqueIdentifier>{22f70e26-0b77-4777-9e4a-3c8912e94517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\参数管理类">
+      <UniqueIdentifier>{8db5e60a-70bc-43a9-8d0f-a3308b68536c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\单例">
+      <UniqueIdentifier>{4cf0b090-59f5-4152-a468-3963738d644b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\NPC">
+      <UniqueIdentifier>{5d4ed415-c33d-4fdd-902a-aac6d68db759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\基类">
+      <UniqueIdentifier>{98425006-7a6b-490c-8b6d-dc5ca998373a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\控制器">
+      <UniqueIdentifier>{bc157094-3ca1-4ced-8ba7-32f5c2d4b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\NPC\怪物">
+      <UniqueIdentifier>{cc466362-c51b-4f19-b885-8ac35c56b2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\常用">
+      <UniqueIdentifier>{68d75923-ac90-4d1c-88ff-6832c51566e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景\大战史莱姆">
+      <UniqueIdentifier>{37f20ff4-de3a-41ab-96bc-0446743cb00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{9ea348c5-f2bd-44db-8808-ff7aaae970a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\引擎启动类">
+      <UniqueIdentifier>{e21ec142-00fa-4d28-8a58-485e936cb981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{c9c1c8f2-3e1a-4ebd-be1b-366995da0619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\工具">
+      <UniqueIdentifier>{8b40646c-a631-44b7-956c-fff0f50f5493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\系统">
+      <UniqueIdentifier>{651491f8-0e49-47e7-bc37-ac49070cb7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\系统\任务系统">
+      <UniqueIdentifier>{5febe6db-58f9-4ea6-aedc-d8af51463538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\系统\怪物系统">
+      <UniqueIdentifier>{5675fe9f-e5ea-4e5c-912a-36c1b27284bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\系统\NPC系统">
+      <UniqueIdentifier>{e2ece283-b489-4ddd-bbf1-2baefebebf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\系统\剧情系统">
+      <UniqueIdentifier>{a4b68a04-9756-4660-82e2-57738efc0397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\按钮">
+      <UniqueIdentifier>{01bd6f8e-f190-472f-a128-da45ac19cf67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\对话框">
+      <UniqueIdentifier>{cdfcb646-d90c-413e-a316-9595de61dbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\状态条">
+      <UniqueIdentifier>{2b05304f-a84f-4737-84c7-0e9fc50d55ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\UI图层">
+      <UniqueIdentifier>{af7c9f5e-a654-46bc-9394-bb0b32c57624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\属性框">
+      <UniqueIdentifier>{1365ecf7-8334-438b-a374-0cacee520d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI\任务框">
+      <UniqueIdentifier>{69c3b4bc-d1d7-41f9-a9a2-85bd351882cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\基类\角色">
+      <UniqueIdentifier>{0943ece9-e7c0-4c9a-8198-d63a01f2d8f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Character\MainCharacter.cpp">
+      <Filter>src\基类\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Base\Biology.cpp">
+      <Filter>src\基类</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Base\Monster.cpp">
+      <Filter>src\NPC\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Base\character.cpp">
+      <Filter>src\基类\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\NPC\Slime.cpp">
+      <Filter>src\NPC\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Control\Controller.cpp">
+      <Filter>src\控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Control\MonsterSM.cpp">
+      <Filter>src\控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Normal\Useful.cpp">
+      <Filter>src\常用</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Scene\helloworld.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Base\GameBase.cpp">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Scene\hello.cpp">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\引擎启动类</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Scene\HelloWorldScene.cpp">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Singleton\GameManager.cpp">
+      <Filter>src\单例</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Singleton\GameDataManager.cpp">
+      <Filter>src\单例</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\NPC\NPC.cpp">
+      <Filter>src\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Base\Mission.cpp">
+      <Filter>src\系统\任务系统</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Control\NPCManager.cpp">
+      <Filter>src\系统\NPC系统</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\System\ScriptManager.cpp">
+      <Filter>src\系统\剧情系统</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\UI\Bottom.cpp">
+      <Filter>src\UI\按钮</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\UI\DialogBoxZero.cpp">
+      <Filter>src\UI\对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\UI\StatusBar.cpp">
+      <Filter>src\UI\状态条</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\UI\PropertyPage.cpp">
+      <Filter>src\UI\属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\NPC\Boss.cpp">
+      <Filter>src\NPC\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\UI\MissionPage.cpp">
+      <Filter>src\UI\任务框</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\System\MissionManager.cpp">
+      <Filter>src\系统\任务系统</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Scene\UILayer.cpp">
+      <Filter>src\UI\UI图层</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Normal\DBUtil.cpp">
+      <Filter>src\工具</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\Normal\AnimaParam.cpp">
+      <Filter>src\参数管理类</Filter>
+    </ClCompile>
+    <ClCompile Include="IMA\System\MonsterManager.cpp">
+      <Filter>src\系统\怪物系统</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Character\MainCharacter.h">
+      <Filter>src\基类\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Base\Biology.h">
+      <Filter>src\基类</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Base\Monster.h">
+      <Filter>src\NPC\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Base\character.h">
+      <Filter>src\基类\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\NPC\Slime.h">
+      <Filter>src\NPC\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Control\Controller.h">
+      <Filter>src\控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Control\MonsterSM.h">
+      <Filter>src\控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Normal\Useful.h">
+      <Filter>src\常用</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Scene\helloworld.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Base\GameBase.h">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Scene\hello.h">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\引擎启动类</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Scene\HelloWorldScene.h">
+      <Filter>src\场景\大战史莱姆</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Singleton\GameManager.h">
+      <Filter>src\单例</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Singleton\GameDataManager.h">
+      <Filter>src\单例</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\NPC\NPC.h">
+      <Filter>src\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Base\Mission.h">
+      <Filter>src\系统\任务系统</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Control\NPCManager.h">
+      <Filter>src\系统\NPC系统</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\System\ScriptManager.h">
+      <Filter>src\系统\剧情系统</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\UI\Bottom.h">
+      <Filter>src\UI\按钮</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\UI\DialogBoxZero.h">
+      <Filter>src\UI\对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\UI\StatusBar.h">
+      <Filter>src\UI\状态条</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\UI\PropertyPage.h">
+      <Filter>src\UI\属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\NPC\Boss.h">
+      <Filter>src\NPC\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\UI\MissionPage.h">
+      <Filter>src\UI\任务框</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\System\MissionManager.h">
+      <Filter>src\系统\任务系统</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Scene\UILayer.h">
+      <Filter>src\UI\UI图层</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Normal\DBUtil.h">
+      <Filter>src\工具</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\Normal\AnimaParam.h">
+      <Filter>src\参数管理类</Filter>
+    </ClInclude>
+    <ClInclude Include="IMA\System\MonsterManager.h">
+      <Filter>src\系统\怪物系统</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

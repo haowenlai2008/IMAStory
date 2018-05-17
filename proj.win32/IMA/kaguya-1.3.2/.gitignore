@@ -1,0 +1,7 @@
+build*
+lua-*
+*.exe
+*.dll
+LuaJIT-*
+docs/doxygen/
+docs/_build/

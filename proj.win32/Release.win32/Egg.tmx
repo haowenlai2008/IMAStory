@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="60" height="10" tilewidth="70" tileheight="70" nextobjectid="4">
+ <tileset firstgid="1" name="草地" tilewidth="70" tileheight="70" tilecount="200" columns="20">
+  <image source="草地.png" width="1400" height="700"/>
+ </tileset>
+ <layer name="ground" width="60" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy1zlV7DmAAgOFvhg0b090x091Md40xOd3dXdM13d3NdJvmZ7lP/IP3PbhPn+tJSiQSJUimJKUoTQqplKEs5UgjnfJUIIOKVKIyVUgK2AvZ+v9WlWpUpwY1qUVt6lCXetSnAQ1pRGOa0JRmZNI8cC/GWxYtaEkrWtOGtrSjPR3oSCc604WudKM7PehJr8C9GG+96UM2felHfwYwkEEMZghDGcZwRjCSUYxmDGMD92K85TCO8eQygYnkMYnJTGEq05hOPjOYySxmM4e5gXsx3uYxnwUsZBGLWcJSlrGcFaxkFatZw1rWsZ4NbAzci/G2ic1sYSvb2M4OdrKLAnazh73sYz8HOMghDnMkcC/G21EKOcZxTnCSU5zmDGc5x3kucJFLXOYKV7nG9cC9GG83uMktbnOHu9zjPg94yCMe84SnPKOI57zgJa8C92K8veYNb3nHez7wkU985gvFfOUb3/nBT37xmz/8DdyL8fYPJZXqzw==
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="3" x="60.6061" y="106.061" width="224.242" height="84.8485"/>
+ </objectgroup>
+</map>

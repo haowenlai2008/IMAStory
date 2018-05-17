@@ -1,0 +1,1 @@
+{"NPC":[{"ID":0,"MapID":2,"Name":"Frost","TextureName":"MainHeroine3.png","exist":true,"position_x":600.0,"position_y":300.0},{"ID":1,"MapID":2,"Name":"DarkKnight","TextureName":"DarkKnight.png","exist":false,"position_x":400.0,"position_y":300.0}]}
