@@ -116,7 +116,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\System;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Singleton;D:\GameDevelop\MyGame\IMAStory\proj.win32;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\json\include\json;D:\GameDevelop\MyGame\IMAStory\libLua\lua-5.3.4\src;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\kaguya-1.3.2\include;D:\GameDevelop\MyGame\IMAStory\cocos2d\external\sqlite3\include;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Scene;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\NPC;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Normal;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Control;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Character;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\Base;$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\IMA\System;.\IMA\UI;.\IMA\Singleton;.\IMA\json\include\json;.\IMA\kaguya-1.3.2\include;.\IMA\Scene;.\IMA\NPC;.\IMA\Normal;.\IMA\Control;.\IMA\Character;.\IMA\Base;..\libLua\lua-5.3.4\src;$(EngineRoot)external\sqlite3\include;$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -130,7 +130,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <Link>
       <AdditionalDependencies>libcurl_imp.lib;websockets.lib;json_vc71_libmt.lib;sqlite3.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\json\include;D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\json\lib;D:\GameDevelop\MyGame\IMAStory\cocos2d\external\sqlite3\libraries\win32;$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\IMA\json\include;.\IMA\json\lib;$(EngineRoot)external\sqlite3\libraries\win32;$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

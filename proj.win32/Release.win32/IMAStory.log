@@ -1,1 +1,85 @@
-﻿
+﻿  AppDelegate.cpp
+  Biology.cpp
+  character.cpp
+  GameBase.cpp
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(25): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\Base\GameBase.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\Base\GameBase.cpp)
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(26): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\Base\GameBase.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\Base\GameBase.cpp)
+IMA\Base\GameBase.cpp(81): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+IMA\Base\GameBase.cpp(82): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+IMA\Base\GameBase.cpp(115): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+IMA\Base\GameBase.cpp(135): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+IMA\Base\GameBase.cpp(137): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+  Mission.cpp
+  Monster.cpp
+  MainCharacter.cpp
+  Controller.cpp
+  MonsterSM.cpp
+  NPCManager.cpp
+  AnimaParam.cpp
+  DBUtil.cpp
+  Useful.cpp
+  Boss.cpp
+IMA\Normal\DBUtil.cpp(97): warning C4566: 由通用字符名称“\u00A0”表示的字符不能在当前代码页(936)中表示出来
+  NPC.cpp
+  Slime.cpp
+  hello.cpp
+  helloworld.cpp
+  HelloWorldScene.cpp
+  UILayer.cpp
+  GameDataManager.cpp
+  GameManager.cpp
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(25): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\Scene\UILayer.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\Scene\UILayer.cpp)
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(26): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\Scene\UILayer.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\Scene\UILayer.cpp)
+IMA\Scene\UILayer.cpp(164): warning C4305: “参数”: 从“double”到“float”截断
+IMA\Scene\UILayer.cpp(169): warning C4305: “参数”: 从“double”到“float”截断
+IMA\Scene\UILayer.cpp(216): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+  D:\GameDevelop\MyGame\IMAStory\cocos2d\cocos\audio\include\SimpleAudioEngine.h(70): note: 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+  MissionManager.cpp
+  MonsterManager.cpp
+IMA\Singleton\GameDataManager.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+IMA\Singleton\GameDataManager.cpp(380): warning C4018: “>=”: 有符号/无符号不匹配
+  ScriptManager.cpp
+  Bottom.cpp
+  DialogBoxZero.cpp
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(25): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\System\MonsterManager.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\System\MonsterManager.cpp)
+D:\GameDevelop\MyGame\IMAStory\proj.win32\IMA\UI\MissionPage.h(26): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\System\MonsterManager.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\System\MonsterManager.cpp)
+  MissionPage.cpp
+IMA\UI\DialogBoxZero.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+IMA\UI\DialogBoxZero.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+IMA\UI\DialogBoxZero.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+  PropertyPage.cpp
+  StatusBar.cpp
+d:\gamedevelop\mygame\imastory\proj.win32\ima\ui\MissionPage.h(25): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\UI\MissionPage.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\UI\MissionPage.cpp)
+d:\gamedevelop\mygame\imastory\proj.win32\ima\ui\MissionPage.h(26): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决 (编译源文件 IMA\UI\MissionPage.cpp)
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(67): note: 参见“cocos2d::LabelTTF”的声明 (编译源文件 IMA\UI\MissionPage.cpp)
+IMA\UI\MissionPage.cpp(21): warning C4996: 'cocos2d::LabelTTF::create': 被声明为已否决
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(83): note: 参见“cocos2d::LabelTTF::create”的声明
+IMA\UI\MissionPage.cpp(27): warning C4996: 'cocos2d::LabelTTF::create': 被声明为已否决
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(83): note: 参见“cocos2d::LabelTTF::create”的声明
+IMA\UI\MissionPage.cpp(45): warning C4996: 'cocos2d::LabelTTF::setString': 被声明为已否决
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(129): note: 参见“cocos2d::LabelTTF::setString”的声明
+IMA\UI\MissionPage.cpp(46): warning C4996: 'cocos2d::LabelTTF::setString': 被声明为已否决
+  d:\gamedevelop\mygame\imastory\cocos2d\cocos\2d/CCLabelTTF.h(129): note: 参见“cocos2d::LabelTTF::setString”的声明
+  main.cpp
+    正在创建库 D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\IMAStory.lib 和对象 D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\IMAStory.exp
+  正在生成代码
+  All 3057 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  IMAStory.vcxproj -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\IMAStory.exe
+  IMAStory.vcxproj -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\IMAStory.pdb (Full PDB)
+  D:\GameDevelop\MyGame\IMAStory\Resources\Archice.json -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\Archice.json
+  D:\GameDevelop\MyGame\IMAStory\Resources\MapData.json -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\MapData.json
+  D:\GameDevelop\MyGame\IMAStory\Resources\NPC.json -> D:\GameDevelop\MyGame\IMAStory\proj.win32\Release.win32\NPC.json
+  复制了 3 个文件
